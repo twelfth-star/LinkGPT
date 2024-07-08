@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This is the official implementation of paper [LinkGPT: Teaching Large Language Models To Predict Missing Links]( https://arxiv.org/abs/2.40604640 ).
+This is the official implementation of paper [LinkGPT: Teaching Large Language Models To Predict Missing Links]( https://arxiv.org/abs/2406.04640 ).
 
 
 ![Architecture of LinkGPT](assets/arch.png)
@@ -114,13 +114,10 @@ bash scripts/{dataset_name}/eval_retrieval_rerank.sh
 If you find this work helpful, please consider citing our paper. Thank you!
 
 ```bibtex
-@misc{he2024linkgptteachinglargelanguage,
-      title={LinkGPT: Teaching Large Language Models To Predict Missing Links}, 
-      author={Zhongmou He and Jing Zhu and Shengyi Qian and Joyce Chai and Danai Koutra},
-      year={2024},
-      eprint={2406.04640},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2406.04640}, 
+@article{he2024linkgpt,
+  title={LinkGPT: Teaching Large Language Models To Predict Missing Links},
+  author={He, Zhongmou and Zhu, Jing and Qian, Shengyi and Chai, Joyce and Koutra, Danai},
+  journal={arXiv preprint arXiv:2406.04640},
+  year={2024}
 }
 ```
