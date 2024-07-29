@@ -1,5 +1,14 @@
 # LinkGPT: Teaching Large Language Models To Predict Missing Links
 
+<p align="center">
+    <a href="https://arxiv.org/abs/2406.04640" alt="arXiv">
+        <img src="https://img.shields.io/badge/arXiv-2406.04640-b31b1b.svg?logo=arxiv&logoColor=fff" /></a>
+    <a href="https://drive.google.com/file/d/1aQQDYuub_a4KSOkWntOJNwmtwtkHRCHl/view?usp=sharing" alt="GoogleDrive Datasets">
+        <img src="https://img.shields.io/badge/GoogleDrive-Datasets-4285F4?logo=googledrive&logoColor=fff" /></a>
+    <a href="https://drive.google.com/file/d/17h3ToYyZFp9dcQ9FJjLL6KT-KvrN1BpH/view?usp=sharing" alt="GoogleDrive Models">
+        <img src="https://img.shields.io/badge/GoogleDrive-Models-4285F4?logo=googledrive&logoColor=fff" /></a>
+</p>
+
 ## Introduction
 
 This is the official implementation of paper [LinkGPT: Teaching Large Language Models To Predict Missing Links]( https://arxiv.org/abs/2406.04640 ).
