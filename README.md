@@ -3,7 +3,7 @@
 <p align="center">
     <a href="https://arxiv.org/abs/2406.04640" alt="arXiv">
         <img src="https://img.shields.io/badge/arXiv-2406.04640-b31b1b.svg?logo=arxiv&logoColor=fff" /></a>
-    <a href="https://drive.google.com/file/d/1aQQDYuub_a4KSOkWntOJNwmtwtkHRCHl/view?usp=sharing" alt="GoogleDrive Datasets">
+    <a href="https://drive.google.com/file/d/1-_57MT-Mtp_oYnqSc0Kos7BpDBAyPuy5/view?usp=drive_link" alt="GoogleDrive Datasets">
         <img src="https://img.shields.io/badge/GoogleDrive-Datasets-4285F4?logo=googledrive&logoColor=fff" /></a>
     <a href="https://drive.google.com/file/d/17h3ToYyZFp9dcQ9FJjLL6KT-KvrN1BpH/view?usp=sharing" alt="GoogleDrive Models">
         <img src="https://img.shields.io/badge/GoogleDrive-Models-4285F4?logo=googledrive&logoColor=fff" /></a>
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ## Data Preparation
 
-Download the data from [here](https://drive.google.com/file/d/1aQQDYuub_a4KSOkWntOJNwmtwtkHRCHl/view?usp=sharing) and extract it into `LinkGPT/data`. You may also save the data in any other location, but you will need to modify the `LINKGPT_DATA_PATH` variable in all scripts accordingly. The structure of the data should look like the following tree diagram.
+Download the data from [here](https://drive.google.com/file/d/1-_57MT-Mtp_oYnqSc0Kos7BpDBAyPuy5/view?usp=drive_link) and extract it into `LinkGPT/data`. You may also save the data in any other location, but you will need to modify the `LINKGPT_DATA_PATH` variable in all scripts accordingly. The structure of the data should look like the following tree diagram.
 
 ```bash
 .
