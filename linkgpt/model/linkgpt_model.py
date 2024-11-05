@@ -472,6 +472,8 @@ def load_model_and_tokenizer(
     linkgpt_special_token_emb_path = os.path.join(ft_model_path, f'stage{stage}/linkgpt_special_token_emb.pt')
     linkgpt_special_token_emb = torch.load(linkgpt_special_token_emb_path, map_location=device).to(device)
     linkgpt_special_token_id_ls = ft_model.base_model.model.model.linkgpt_special_token_id_ls
-    ft_model.base_model.model.model.embed_tokens.weight[linkgpt_special_token_id_ls] = linkgpt_special_token_emb
+    with torch.no_grad():
+        linkgpt_special_token_emb = linkgpt_special_token_emb.to(ft_model.base_model.model.model.embed_tokens.weight.dtype)
+        ft_model.base_model.model.model.embed_tokens.weight.data[linkgpt_special_token_id_ls] = linkgpt_special_token_emb
     
     return ft_model, tokenizer
